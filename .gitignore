@@ -2,6 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
@@ -25,6 +28,14 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Data files (sensitive)
+*.env
+*.sql
+*.db
+
+# OS generated files
+.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
