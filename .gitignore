@@ -5,7 +5,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+core/config.py
 # C extensions
 *.so
 
@@ -28,6 +28,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.vscode/
+*.txt
 
 # Data files (sensitive)
 *.env
