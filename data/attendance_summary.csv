@@ -1,0 +1,10 @@
+date,meal_type,students_present,actual_attended
+2024-12-25,Breakfast,10,8
+2024-12-25,Lunch,10,8
+2024-12-25,Dinner,10,8
+2024-12-26,Breakfast,10,10
+2024-12-26,Lunch,10,10
+2024-12-26,Dinner,10,10
+2024-12-27,Breakfast,10,3
+2024-12-27,Lunch,10,6
+2024-12-27,Dinner,10,3

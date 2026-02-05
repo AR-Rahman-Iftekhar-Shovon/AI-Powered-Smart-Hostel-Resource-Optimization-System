@@ -1,0 +1,3 @@
+day_of_week_num,is_weekend,month,day_of_month,meal_type_encoded,actual_attended
+4,0,12,27,1,6
+2,0,12,25,1,8

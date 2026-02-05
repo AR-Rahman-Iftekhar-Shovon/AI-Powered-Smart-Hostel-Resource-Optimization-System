@@ -1,0 +1,8 @@
+git init  #ফোল্ডারকে Git repository বানায়
+git add . #সব ফাইল staging এ নেয়
+git commit -m "Initial project structure" পরিবর্তনগুলো snapshot হিসেবে সেভ করে
+
+
+git branch -M main
+git remote add origin https://github.com/AR-Rahman-Iftekhar-Shovon/AI-Powered-Smart-Hostel-Resource-Optimization-System
+git push -u origin main

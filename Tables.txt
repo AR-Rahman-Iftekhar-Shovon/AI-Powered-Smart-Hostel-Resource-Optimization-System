@@ -1,0 +1,51 @@
+1️. students
+
+student_id (primary key)
+
+name (optional)
+
+room_no (optional)
+
+2️. attendance_logs
+
+log_id (primary key)
+
+student_id (foreign key → students.student_id)
+
+date
+
+present (Yes/No, বা 1/0)
+
+3️. meals
+
+meal_id (primary key)
+
+date
+
+meal_type (Lunch/Dinner)
+
+total_students
+
+4️. wastage_logs
+
+log_id (primary key)
+
+date
+
+food_prepared
+
+food_consumed
+
+wastage_quantity
+
+5️. predictions
+
+prediction_id (primary key)
+
+date
+
+predicted_students
+
+model_used
+
+confidence_score
