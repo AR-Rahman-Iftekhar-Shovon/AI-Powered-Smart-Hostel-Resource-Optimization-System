@@ -10,8 +10,8 @@ def create_connection():
         connection = mysql.connector.connect(
             host='localhost',
             database='smart_hostel_db',
-            user='root',
-            password='Shovon@21'  
+            user='',        #TODO: Change this to your MySQL username
+            password=''     #TODO: Change this to your MySQL password
         )
         
         if connection.is_connected():
